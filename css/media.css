@@ -1,0 +1,503 @@
+/*START section one*/
+
+@media screen and (max-width: 1024px) {
+	.titleSectionOne {
+		font-size: 55px;
+	}
+	.subTitleSectionOne{
+		font-size: 32px;
+	}
+	.iphoneX img {
+		width: 55%;
+	}
+	.iphoneX {
+		top: 65%;
+    	left: 65%;
+	}
+	.buttonEnterprise {
+		transform: translateX(-150px);
+	}
+}
+@media screen and (max-width: 768px) {
+
+	.titleSectionOne {
+		font-size: 40px;
+	}
+	.subTitleSectionOne{
+		font-size: 28px;
+	}
+	.iphoneX img {
+		width: 65%;
+	}
+	.iphoneX {
+		top: 65%;
+    	left: 65%;
+	}
+	.buttonEnterprise {
+		transform: translateX(-130px);
+	}
+}
+@media screen and (max-width: 568px) {
+	.imgLogo img {
+		width: 40%;
+	}
+	.imgLogo {
+		margin-top: 15px;
+		transform: translateX(-30px);
+	}
+    .buttonEnterprise {
+		transform: translateX(180px);
+		padding: 5px 20px;
+		border: 2px solid white;
+		text-transform: uppercase;
+		border-radius: 25px 25px 25px 25px;
+	}
+	.content {
+		margin: 0;
+		margin-top: 100px;
+	}
+	.titleSectionOne  {
+		margin-top: 50px;
+		font-size: 38px;
+		line-height: 48px;
+	
+}
+	.subTitleSectionOne {
+		font-size: 24px;
+}
+	.question {
+		padding-top: 40px;
+		font-size: 16px;
+		color: white;
+	
+}
+	.iphoneX  {
+		position: absolute;
+		content: "";
+		top: 75%;
+    	left: 60%;
+    	right: 0;
+    	bottom: 0;
+    	z-index: 2;
+
+	}
+	.iphoneX img {
+		width: 125px;
+}
+	.one{
+		margin-bottom: 100px;
+}
+}
+
+
+/*END section one*/
+
+/*START section two*/
+
+@media screen and (max-width: 1024px) {
+	.titleSectionTwo {
+		font-size: 40px;
+		text-align: center;
+	}
+	.margin-left {
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 768px){
+	.titleSectionTwo {
+		font-size: 35px;
+		text-align: center;
+	}
+	.margin-left {
+		margin-left: 0;
+	}
+	.subTitleSectionTwo {
+		font-size: 26px;
+	}
+	.textSectionTwo{
+		font-size: 23px;
+	}
+}
+@media screen and (max-width: 568px){
+	.titleSectionTwo {
+		font-size: 25px;
+		text-align: center;
+	}
+	.margin-left {
+		margin-left: 0;
+	}
+	.two {
+		margin-bottom: 50px;
+}
+}
+/*END section two
+
+
+/*START section three*/
+
+@media screen and (max-width: 1024px) {
+	.titleSectionThree {
+		font-size: 60px;
+		font-weight: bold;
+		color: white;
+		padding: 100px 0 10px 80px;
+}
+@media screen and (max-width: 768px) {
+	.titleSectionThree {
+		font-size: 40px;
+		font-weight: bold;
+		color: white;
+		padding: 60px 0 10px 50px;
+}
+	.textSectionThree {
+		font-size: 20px;
+		line-height: 40px;
+		color: white;
+		padding: 30px 0 10px 50px;
+}
+	.video {
+		margin: 50px 0 0 140px;
+}
+	.doIt {
+		width: 80%;
+		height: 350px;
+}
+}
+}
+@media screen and (max-width: 568px) {
+	.titleSectionThree {
+		font-size: 40px;
+		padding: 60px 0 10px 20px;
+	}
+	.three {
+		background-position: 50% 50%;
+	}
+	.textSectionThree {
+	
+		font-size: 20px;
+		line-height: 40px;
+		color: white;
+		padding: 0 0 10px 20px;
+	}
+	.buttonGetItNow {
+		margin: 25px 0 0 80px;
+	}
+	.video {
+		margin: 80px 0 0 25px;
+	}
+	.doIt {
+		width: 300px;
+		height: 170px;
+	}
+}
+/*END section three*/
+
+/*START section four*/
+
+@media screen and (max-width: 568px) {
+	.contentSectionFour h2{
+		font-size: 35px;
+	}
+	.four {
+		margin: 50px 0 70px 0;
+}
+}
+/*END section four*/
+
+
+/*START section five*/
+
+@media screen and (max-width: 1024px) {
+	.iphoneDog {
+		margin-left: 50px;
+}
+	.titleSectionFive {
+		margin-right: 50px;
+		padding-top: 50px;
+		font-size: 65px;
+}
+	.textSectionFive {
+		padding-top: 10px;
+}
+@media screen and (max-width: 768px) {
+	.iphoneDog {
+		width: 250px;
+		margin-left: 50px;
+}
+	.contentSectionFive {
+		margin-right: 0;
+		padding-top: 0;
+		font-size: 35px;
+		margin-left: 50px;
+		margin-bottom: 50px;
+}
+}
+}
+@media screen and (max-width: 568px) {
+	.relative::after {
+		overflow-x: hidden;
+		display: block;
+		position: absolute;
+}
+	.contentSectionFive {
+		margin-left: 0;
+}
+	.iphoneDog {
+		width: 300px;
+		padding: 50px 0 0 50px;
+		margin-left: 0;
+	}
+	.titleSectionFive {
+		margin-right: 50px;
+		padding-top: 50px;
+		font-size: 50px;
+		text-align: center;
+		margin-right: 0;
+	}
+	.textSectionFive {
+		padding-top: 0;
+		color: white;
+		font-size: 20px;
+		line-height: 26px;
+		font-weight: normal;
+		position: relative;
+		z-index: 3;
+	}
+	.five{
+		margin-bottom: 35px;
+	}
+
+}
+
+/*END section five*/
+
+/*Start secion six*/
+
+@media screen and (min-width: 1900px) {
+	.contentSectionSix {
+		margin-left: 250px;
+	}
+	.marginLeft1900 img {
+		padding-left: 100px;
+		width: 525px;
+	}
+}
+@media screen and (max-width: 1024px){
+	.contentSectionSix {
+		margin: 50px 0 0 50px;
+}
+	.iphoneSectionSix {
+		margin-left: 10px;
+		width: 400px;
+		margin-right: 20px;
+}
+}
+@media screen and (max-width: 768px) {
+	.iphoneSectionSix {
+		margin-left: 50px;
+		width: 300px;
+}
+	.contentSectionSix {
+		margin: 0 0 0 50px;
+}
+}
+
+@media screen and (max-width: 568px) {
+	.contentSectionSix {
+		margin: 0;
+	}
+	.iphoneSectionSix {
+		width: 300px;
+		padding: 50px 0 0 50px;
+		margin-left: 0;
+	}
+}
+/*End secion six*/
+
+/*START section seven*/
+
+@media screen and (min-width: 1900px) {
+	.rightSection {
+		transform: translateX(1030px);
+		width: 635px;
+		background-size: contain;
+		background-repeat: no-repeat;	
+	}
+	.leftSection {
+		margin-left: 220px;
+		border-radius: 70px 0 0 70px;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.rightSection {
+		width: 635px;
+	}
+	.leftSection {
+		margin-left: 50px;
+		border-radius: 70px 0 0 70px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.containerSectionSeven {
+		flex-wrap: wrap;
+}
+	.leftSection {
+		width: 100%;
+		margin-left: 0;
+		border-radius: 70px 70px 70px 70px;
+		}
+	.rightSection {
+		width: 100%;
+		max-width: 768px;
+		transform: translateX(0);
+		border-radius: 0 60px 60px 60px;
+	}
+}
+@media screen and (max-width: 568px) {
+	.containerSectionSeven {
+		flex-wrap: wrap;
+}
+	.leftSection {
+		width: 100%;
+		height: 650px;
+		margin-left: 0;
+		border-radius: 70px 70px 70px 70px;
+	}
+	.contentSectionSevenLeft {
+		margin: 120px 0 0 60px;
+	}
+	.titleSectionSeven {
+		color: white;
+		font-size: 50px;
+		line-height: 70px;
+	}
+	.introduction {
+		width: 250px;
+	}
+	.rightSection {
+		width: 100%;
+		position: inherit;
+		transform: translateX(0);
+		height: 700px;
+		background-size: cover;
+		border-radius: 0 60px 60px 0;
+	}
+	.contentSectionSevenRight {
+		margin: 60px 0 0 35px;
+}
+	.seven {
+		margin-bottom: 50px;
+}
+}
+/*END section seven*/
+
+
+/*Start section Eight*/
+
+@media screen and ( max-width: 768px) {
+	.textUnderImg {
+		font-size: 22px;
+		margin-left: 50px;
+	}
+	.storiesIMG {
+		margin-left: 50px;
+	}
+	.marginLeft {
+		margin-left: 0;
+}
+	.personPhoto img {
+		margin-left: 30px;
+}
+	.personInfo {
+		margin-left: 40px;
+	}
+}
+@media screen and (max-width: 568px) {
+	.marginLeft {
+		margin-left: 0;
+}
+	.personInfo p {
+		font-size: 16px;
+		padding-top: 0;
+
+}
+	.personPhoto img {
+		width: 40px;
+}
+	.margin_bottom {
+		margin-bottom: 10px;
+
+	}
+
+}
+/*End section eight*/
+
+
+/*Start Section nine*/ 
+
+@media screen and (max-width: 1024px) {
+	.smallIMG img {
+		width: 80px;
+}
+}
+
+@media screen and (max-width: 768px) {
+	.smallIMG img {
+		width: 220px;
+		margin: 5px 0 20px 50px;
+
+}
+	p.secondPersonName {
+		font-size: 15px;
+		margin-left: 180px;
+}
+	p.describePhoto {
+		font-size: 18px;
+		margin-top: 30px;
+		margin-left: 180px;
+}
+	.marginBottom {
+		margin-bottom: 0;
+}
+
+}
+@media screen and (max-width: 568px) {
+	.smallIMG img {
+		width: 110px;
+		margin: 5px 0 20px 30px;
+
+}
+	p.secondPersonName {
+		font-size: 12px;
+		margin-left: 120px;
+}
+	p.describePhoto {
+		font-size: 15px;
+		margin-top: 5px;
+		margin-left: 120px;
+}
+}
+/*END section nine*/
+
+
+/*START footer*/
+
+
+@media screen and (max-width: 568px) {
+	footer {
+		height: 180px;	
+	}
+	.titleFooter {
+		padding-top: 30px;
+	}
+}
+@media screen and (min-width: 1900px) {
+	.titleFooter {
+		margin-left: 20px;
+	}
+	.padding1900 {
+		padding-left: 30px;
+	}
+}
+
+/*END footer*/

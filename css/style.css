@@ -1,0 +1,454 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	overflow-x: hidden;
+}
+/*START section one*/
+.one {
+	background-image: url(../img/Rectangle-7.png);
+	height: 800px;
+	max-height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	margin-bottom: 200px;
+	border-radius: 0 0 5% 5%;
+	position: relative;
+	box-shadow: 0px 7px 5px rgba(150, 150, 150, 0.4);
+}
+.iphoneX {
+	position: absolute;
+	content: "";
+	top: 65%;
+    left: 65%;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.iphoneX img {
+	width: 40%;
+}
+.imgLogo {
+	position: absolute;
+	z-index: 2;
+	margin-left: 50px;
+}
+.buttonEnterprise {
+	position: absolute;
+	z-index: 2;
+	color: #3C1464;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 20px;
+	transform: translateX(-100px);
+	padding: 5px 30px;
+	border: 3px solid #3C1464;
+	text-transform: uppercase;
+	border-radius: 25px 25px 25px 25px;
+	text-decoration: none;
+	transition: background-color 1s, color 1s, border 1s;
+}
+
+.buttonEnterprise:hover {
+	color: white;
+	background-color: #3C1464;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+	
+}
+.content  {
+	position: absolute;
+	margin: 50px;
+	margin-top: 200px;
+	z-index: 2;
+}
+.titleSectionOne  {
+	font-size: 70px;
+	line-height: 80px;
+	background: linear-gradient(180deg, #f9f9f9 0%, #40ffb3 84%, #8AA9D6);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	color: #0B2349;
+}
+.subTitleSectionOne {
+	color: #3C1464;
+	font-size: 40px;
+}
+.question {
+	padding-top: 10px;
+	font-size: 25px;
+	color: white;
+	
+}
+.answer {
+	position: relative;
+	padding: 5px;
+	font-size: 17px;
+	width: 350px;
+	background-color: white;
+	line-height: 45px;
+	padding-left: 20px;
+	color: #9B51E0;
+	border-radius: 0 0 25px 25px;
+}
+.answer::after {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 110%;
+	max-width: 350px;
+	height: 1px;
+	border-top: 1px solid white;
+	z-index: 2;
+	transform: translate(-20px, -150px);
+}
+.one::after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	background: rgb(60,20,100);
+	background: linear-gradient(120deg, rgba(60,20,100,1) 39%, rgba(155,255,255,1) 84%);
+    opacity: 0.35;
+    border-radius: 0 0 5% 5%;
+    }  
+    
+
+
+/*END section one*/
+
+/*START section two*/
+.two {
+	margin-bottom: 100px;
+}
+.titleSectionTwo {
+	padding-right: 50px;
+	font-size: 50px;
+	font-weight: bold;
+	color: #3C1464;
+}
+.rowSectionTwo {
+	width: 1200px;
+	max-width: 100%
+}
+.subTitleSectionTwo {
+	margin: 30px 0 20px 0;
+	font-size: 40px;
+	color: #0DE6CF;
+}
+.textSectionTwo {
+	font-size: 26px;
+	color: #4F4F4F;
+}
+.margin-left {
+	margin-left: 80px;
+}
+
+/*END section two
+
+
+/*START section three*/
+.three {
+	background-image: url(../img/Rectangle208.png);
+	height: 880px;
+	position: relative;
+}
+.titleSectionThree {
+	font-size: 85px;
+	font-weight: bold;
+	color: white;
+	padding: 100px 0 10px 80px;
+}
+.textSectionThree {
+	font-size: 20px;
+	line-height: 40px;
+	color: white;
+	padding: 0 0 10px 80px;
+}
+.buttonGetItNow {
+	display: inline-block;
+	margin: 65px 0 0 80px;
+	padding: 13px 45px;
+	margin-top: 30px;
+	border-radius: 25px 25px 25px 25px;
+	color: white;
+	transition: 1s;
+	border: 2px solid #0DE6CF;
+	text-decoration: none;
+	}
+.buttonGetItNow:hover {
+	color: white;
+	background-color: #0DE6CF;
+}
+.video {
+	margin: 200px 0 0 80px;
+}
+.doIt {
+	width: 100%;
+}
+
+/*END section three*/
+
+/*START section four*/
+.four {
+	margin: 100px 0 150px 0;
+}
+.contentSectionFour {
+	text-align: center;
+}
+.contentSectionFour h2 {
+	color: #3C1464;
+	font-size: 50px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.textSectionFour {
+	color: #4F4F4F;
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+.massengerLogo {
+	text-align: center;
+}
+.massengerLogo img {
+	width: 30px;
+	margin-right: 20px;
+	
+}
+
+/*END section four*/
+
+
+/*START section five*/
+.five {
+	background-image: url(../img/BG.png);
+	margin-bottom: 100px;
+	
+}
+.iphoneDog {
+	width: 300px;
+	position: relative;
+	z-index: 3;
+	padding: 30px 0 30px 0;
+	margin-left: 150px;
+}
+.titleSectionFive {
+	margin-right: 50px;
+	padding-top: 100px;
+	color: white;
+	font-size: 100px;
+	font-weight: bold;
+}
+.textSectionFive {
+	padding-top: 50px;
+	color: white;
+	font-size: 25px;
+	font-weight: lighter;
+		position: relative;
+	z-index: 3;
+}
+.relative {
+	position: relative;
+}
+
+.relative::after {
+	content: url(../img/Group88.png);
+	top: 40px;
+    left: 20px;
+    right: 0;
+    bottom: 0;
+	display: block;
+	position: absolute;
+	overflow: hidden;
+}
+
+
+/*END section five*/
+
+/*Start secion six*/
+.six {
+	margin-bottom: 50px;
+}
+.contentSectionSix {
+	margin: 70px 0 0 140px;
+}
+.titleSectionSix {
+	font-size: 35px;
+	color: #0DE6CF;
+}
+.textSectionSix {
+	padding-top: 10px;
+	font-size: 16px;
+}
+.iphoneSectionSix {
+	margin-left: 150px;
+	width: 400px;
+}
+
+/*End secion six*/
+
+/*START section seven*/
+.seven {
+	margin-bottom: 50px;
+}
+.containerSectionSeven {
+	display: flex;
+}
+.leftSection {
+	background-image: url(../img/Rectangle214.png);
+	height: 650px;
+	width: 45%;
+	margin-left: 125px;
+	border-radius: 70px 0 0 70px;
+	background-size: cover;
+}
+.contentSectionSevenLeft {
+	margin: 80px 0 0 80px;
+}
+.titleSectionSeven {
+	color: white;
+	font-size: 60px;
+	line-height: 85px;
+}
+.introduction {
+	padding-bottom: 10px;
+	width: 500px;
+	margin-top: 50px;
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	border-bottom: 1px solid white;
+
+}
+.rightSection {
+	
+	height: 650px;
+	background-image: url(../img/SECTIONBG.png);
+	background-size: cover;
+	transform: translateX(-50px);
+	width: 100%;
+	max-width: 635px;
+	background-repeat: no-repeat;
+	border-radius: 0 70px 0 0;	
+}
+.contentSectionSevenRight {
+	margin: 100px 0 0 100px;
+}
+.subTitleSectionSeven {
+	font-size: 35px;
+	color: white;
+	margin-bottom: 40px;
+}
+.sectionSevenQuestions {
+	font-size: 22px;
+	font-weight: bold;
+	color: #1FBEB8;
+	padding-top: 10px;
+}
+.exampleOfAnswer {
+	color: white;
+	font-size: 16px;
+	padding: 15px 0;
+	font-weight: lighter;
+}
+
+/*END section seven*/
+
+
+/*Start section Eight*/
+.eight {
+	margin-bottom: 40px;
+}
+.marginLeft {
+	margin-left: 60px;
+}
+.titleSectionEight {
+	text-align: center;
+	font-size: 50px;
+	color: #3C1464;
+	margin-bottom: 30px;
+}
+.storiesIMG img{
+	width: 90%;
+
+}
+.personPhoto img {
+	width: 40px;
+}
+.textUnderImg {
+	font-size: 19px;
+	padding-top: 10px;
+	padding-right: 60px;
+	font-weight: bold;
+	color: #333333;
+}
+.personInfo p {
+	padding-top: 5px;
+	padding-left: 20px;
+}
+
+/*End section eight*/
+
+
+/*Start Section nine*/ 
+.nine {
+	margin-bottom: 50px;
+}
+.smallIMG img {
+	width: 110px;
+}
+p.secondPersonName {
+	font-size: 12px;
+	margin-left: 15px;
+}
+p.describePhoto {
+	font-size: 14px;
+	font-weight: bold;
+	color: #333333;
+	padding-right: 20px;
+	margin-left: 15px;
+}
+.marginBottom {
+	margin-bottom: 25px;
+}
+
+/*END section nine*/
+
+
+/*START footer*/
+footer {
+	background-image: url(../img/BG_footer.png);
+	height: 280px;
+	background-size: cover;
+}
+.titleFooter {
+	text-align: center;
+	padding-top: 70px;
+	color: white;
+	font-size: 40px;
+}
+.links {
+	width: 200px;
+	margin: 0 auto;
+	margin-top: 25px;
+
+}
+.footerLinks {
+	color: white;
+	padding: 15px;
+	font-size: 20px;
+	text-decoration: none;
+	padding-left: 27px;
+}
+.footerLinks:hover {
+	color: #0DE6CF;
+}
+
+
+
+/*END footer*/
