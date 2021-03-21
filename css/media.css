@@ -1,5 +1,13 @@
 /*START section one*/
-
+@media screen and (min-width: 1800px) {
+	.iphoneX img {
+		width: 40%;
+	}
+	.iphoneX {
+		top: 50%;
+    	left: 65%;
+	}
+}
 @media screen and (max-width: 1024px) {
 	.titleSectionOne {
 		font-size: 55px;
@@ -318,13 +326,13 @@
 
 @media screen and (min-width: 1900px) {
 	.rightSection {
-		transform: translateX(1030px);
+		
 		width: 635px;
 		background-size: contain;
 		background-repeat: no-repeat;	
 	}
 	.leftSection {
-		margin-left: 220px;
+		margin-left: 250px;
 		border-radius: 70px 0 0 70px;
 	}
 }

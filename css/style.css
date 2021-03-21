@@ -436,9 +436,10 @@ footer {
 	width: 200px;
 	margin: 0 auto;
 	margin-top: 25px;
-
+	
 }
 .footerLinks {
+	transition: all 0.5s;
 	color: white;
 	padding: 15px;
 	font-size: 20px;
@@ -452,3 +453,16 @@ footer {
 
 
 /*END footer*/
+
+/*accordeon*/
+.acc-head {
+	cursor: pointer;
+}
+.acc-body {
+	
+	padding: 10px;
+	border-bottom: 1px solid #c0c0c0;
+	margin-bottom: 5px;
+	display: none;
+}
+/*accordeon*/
